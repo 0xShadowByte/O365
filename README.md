@@ -12,7 +12,9 @@ Backup & Recovery Knowledge: Learned about the importance of data backup and tes
 Project Steps:
 
 Tools
-Office 365
+Office 365 Admin (30 Day free trial)
+
+https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-business-standard-one-month-trial 
 
 Office 365 Tenant Setup:
 
