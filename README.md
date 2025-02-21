@@ -60,6 +60,34 @@ Configure mailboxes for the created users.
 Set up custom email domains, configure mail flow rules, and test email communication.
 Implement data loss prevention (DLP) policies and spam filtering.
 
+To configure mailboxes for created users, we first go to the users section in the left-hand pane, select Users and then choose Active users. Select the user you want to configure the mailbox for, in our case it would be Ava Johnson. In the User details page, under Licenses and Apps, click apps on the bottom drop down section. Double check that the user is assigned the appropriate license that includes Exchange Online, which should be part of the Microsoft 365 Business Basic plan. After assigning the license, click Save to apply changes. The mailbox will be created automatically when the license is assigned. 
+
+![image](https://github.com/user-attachments/assets/70da2423-a73d-411f-b73e-9975551629cc)
+
+![image](https://github.com/user-attachments/assets/10c44270-2b27-4926-92f1-7e64a3e4923b)
+
+To set up a custom email domain we need to go to Setup in the admin center. Under Domains, select Add domain to add your domain to Microsoft 365. For example, I'm using veridiontech.com as a domain name. Once the domain is verified, go back to Active users, select the user, and update their User name to use the new domain (i.e. veridiontech.com)
+
+![image](https://github.com/user-attachments/assets/304596da-19f0-48f2-83de-1618723a4373)
+
+![image](https://github.com/user-attachments/assets/4366acd1-3167-4bc7-91ad-55c5ed9e8b85)
+
+![image](https://github.com/user-attachments/assets/82940a0d-1b69-4f54-9763-f97643ada643)
+
+To configure mail flow rules (to filter emails, redirect them, or set up security protocols), go to Exchange Admin Center which is towards the bottom of the page on the left-hand pane. In the Exchange Admin Center, select Mail flow and then choose Rules. From here, you create new rules for email routing and other configurations like blocking externl mail.
+
+![image](https://github.com/user-attachments/assets/e7b49e13-029d-4cdd-b1c6-9e86e743262e)
+
+![image](https://github.com/user-attachments/assets/a5445678-0fe3-455c-8f70-86dd11f86fd5)
+
+![image](https://github.com/user-attachments/assets/684b3b59-1ee0-46c1-aa4b-61faf19bf3bc)
+
+![image](https://github.com/user-attachments/assets/55fbfd91-0074-45fb-a7e7-714668baf167)
+
+To configure Data Loss Prevention (DLP) Policies we first go to the Security & Compliance center.
+
+![image](https://github.com/user-attachments/assets/364c09c5-11b7-4029-a5d8-6dfb03028249)
+
 Collaboration Setup (Teams & OneDrive):
 
 Set up Microsoft Teams for internal communication and collaboration.
