@@ -87,7 +87,7 @@ To configure mail flow rules (to filter emails, redirect them, or set up securit
 
 ![image](https://github.com/user-attachments/assets/55fbfd91-0074-45fb-a7e7-714668baf167)
 
-### Step 4: Implement DLP policies and spam filtering
+### Step 4: Implement DLP policies
 
 To configure Data Loss Prevention (DLP) Policies we first go to the Microsoft Purview Compliance Portal. To get there we click on Compliance under Admin centers which will redirect us to Microsoft Purview. From there we look at the left-hand pane and find Data lifecycle management then we click on Policies > Retention Policies. Create a new retention policy by clicking on "+ New retention policy" > name it "1-Year-Email-Retention" (as an example). Keep hitting next till you get to Retention settings, or if you want to be more specific you can choose where to apply the policy. Under retention settings choose Retain items for a specific period, i.e. 365 days or 1 year. You can choose what happens after retention, either delete items automatically after the retention periood or retain items but do not delete them (for legal hold scenarios). Review the policy and click create to finalize. The policy will automatically apply to all mailboxes in Exchange Online based on the chosen settings, it'll take up to 24 hoours for the policies too take effect.
 
@@ -126,17 +126,51 @@ Open the Teams Admin center and navigate to Teams > Manage Teams > + Add Team. C
 
 ### Step 3: Configure Messaging and File Sharing in Teams
 
+In the Teams Admin Center, go to Messaging Policies then click on the group you want and customize settings like deleting messages, Giphy use, or read receipts. 
 
+![image](https://github.com/user-attachments/assets/78d31423-8bed-4504-b4f0-d08e1fb629e2)
+
+![image](https://github.com/user-attachments/assets/764745e8-933d-4760-8103-4944f29b0eb9)
+
+Under Files in Teams, ensure file storages are integrated. Users can upload files, co-edit documents, and manage sharing permissions.
+
+![image](https://github.com/user-attachments/assets/2029a0fa-a80b-4b3b-ab61-29deed615ee6)
 
 ### Step 4: Set up OneDrive for Business for file storage and sharing, and implement access controls
+
+Open OneDrive Admin Center and under Storage, set the default quota per user. In OneDrive Admin Center > Sharing, choose: anyone (files can be shared externally with a link), new and existing guests (only specific external users can access) or only people in your organizaton (prevents external sharing). Users can sync their OneDrive files to their local drives via the OneDrive app,.
+
+![image](https://github.com/user-attachments/assets/220ce923-99f1-4fc3-a1be-a5514ce87b57)
 
 ## Task V. Security & Compliance
 
 ### Step 1: Enable Multi-Factor Authentication (MFA) for users to secure accounts.
 
-### Step 2: Implement conditional access policies to control access to Office 365 resources.
+Go to Microsoft 365 Admin Center, navigate to users then active users and select a user (or multiple users). Click "MFA" (under more actions). In the Microsoft Entra admin center page, find the user(s) and click Enable. Confirm and notify the user, the user(s) will be prompted to set up MFA the next time they log in. 
 
-### Step 3: Set up Microsoft Defender for Office 365 to protect against threats like phishing.
+![image](https://github.com/user-attachments/assets/c4bd229a-0247-418c-a39e-c6d06f2e5186)
+
+![image](https://github.com/user-attachments/assets/b55749e9-48d5-42fa-ab53-38b142793e6f)
+
+![image](https://github.com/user-attachments/assets/46c8376e-db69-44ac-b7c2-f7408a70eb6e)
+
+![image](https://github.com/user-attachments/assets/2e2a4486-f5e4-4fad-9706-6bdba53eda55)
+
+### Step 2 : Set up Microsoft Defender for Office 365 to protect against threats like phishing.
+
+Go to Microsoft 365 defender, navigate to Email & Collaboration > Policies & Rules. Click on Threat Policies > Anti-Phishing. Click Create or Modify Default Policy. Configure the following: users & domains to protect (add your company domain and key users), impersonation protection (enable for CEO/CFO/HR to prevent spoofing), and actions (quarantine phishing emails instead of delivering them and notify users when an email is blocked). Save the policy.
+
+![image](https://github.com/user-attachments/assets/57ee33f2-e89d-4852-8ea3-a84a6df6d590)
+
+![image](https://github.com/user-attachments/assets/a03bf955-07b7-4b58-8855-fba1b309d8ae)
+
+![image](https://github.com/user-attachments/assets/cdcb88b6-ca22-4c63-83a0-74ad14281d8e)
+
+### Bonus Step 3: Enable Anti-Spam Policies
+
+From Microsoft Defender go to Threat Policies > Anti-Spam. Enable External Email warning to alert users of outside emails. Increase spam filtering senstivity too block suspicious messages then save changes.
+
+![image](https://github.com/user-attachments/assets/b1c2e60d-0871-4138-a44e-6dcd288d726c)
 
 ## Task VI. PowerShell Automation
 
