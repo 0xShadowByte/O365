@@ -22,11 +22,27 @@ Sign up for a Microsoft 365 Business or Education trial.
 Set up the tenant with your domain name (if you have one) or use the default domain.
 Configure the basic tenant settings (language, region, etc.).
 
+![image](https://github.com/user-attachments/assets/c7ec4ac2-6d22-455e-89ce-b96cb19c9871)
+
+![image](https://github.com/user-attachments/assets/e0eae49d-2d67-403f-a680-43f2f913e07b)
+
 User Management:
 
-Create user accounts and assign appropriate licenses (e.g., Microsoft 365 Business Basic, Premium, etc.).
-Use the Microsoft 365 Admin Center to manage user roles and permissions.
+Create user accounts and assign appropriate licenses
+Use the Microsoft 365 Admin Center to manage user roles and permissions. 
 Set up security groups and dynamic groups for organizing users.
+
+Created a sample of 10 users for the practical lab. Using Ava Johnson as an example. Got a brief overview of her account and noticed that some fields are not filled in yet but they will be later on in the exercise. 
+
+I've assigned her the default Microsoft 365 Business Standard licenses, 14 of 25. Scrolled through the licenses to makes sure that she is only assigned the licenses that she'll need for her role. In our case she'll be given Help Desk, Teams, and User Admin roles. There is an option too fine tune her roles but in this practice we're only gonna go w/ what is available under Admin center access and not "show all by category". 
+
+![image](https://github.com/user-attachments/assets/90074413-224f-4657-aaa3-7cb361f855bf)
+
+![image](https://github.com/user-attachments/assets/3a06cdd8-a725-410b-b4b5-a2ec5ca9f94c)
+
+![image](https://github.com/user-attachments/assets/5bff372b-0970-4e6d-85b6-c3cd8ec4ef0b)
+
+![image](https://github.com/user-attachments/assets/0c82b42d-1727-4bfc-9645-f24de63c388d)
 
 Email Setup (Exchange Online):
 
