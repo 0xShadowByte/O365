@@ -7,9 +7,6 @@ Lessons Learned:
 Cloud Admin Skills: Gained experience with Microsoft 365 Admin Center for user management and service configuration.
 Security Best Practices: Implemented security measures such as MFA, conditional access, and data loss prevention.
 Collaboration Tools Mastery: Set up Teams and OneDrive to improve team collaboration and file sharing.
-PowerShell Proficiency: Gained hands-on experience automating tasks and managing Office 365 with PowerShell.
-Backup & Recovery Knowledge: Learned about the importance of data backup and tested restoration methods.
-Project Steps:
 
 Tools
 Office 365 Admin (30 Day free trial)
@@ -172,14 +169,3 @@ From Microsoft Defender go to Threat Policies > Anti-Spam. Enable External Email
 
 ![image](https://github.com/user-attachments/assets/b1c2e60d-0871-4138-a44e-6dcd288d726c)
 
-## Task VI. PowerShell Automation
-
-### Step 1: Learn and execute basic PowerShell commands for Office 365 administration (user management, report generation, license assignment, etc.).
-
-### Step 2: Automate repetitive tasks like creating user accounts, assigning licenses, and generating reports.
-
-## Task VII. Backup and Restore
-
-### Step 1: Explore third-party backup solutions for Office 365 data (e.g., emails, SharePoint, OneDrive).
-
-### Step 2: Test data restoration procedures to ensure recovery of lost files or emails.
