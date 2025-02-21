@@ -34,15 +34,25 @@ Set up security groups and dynamic groups for organizing users.
 
 Created a sample of 10 users for the practical lab. Using Ava Johnson as an example. Got a brief overview of her account and noticed that some fields are not filled in yet but they will be later on in the exercise. 
 
-I've assigned her the default Microsoft 365 Business Standard licenses, 14 of 25. Scrolled through the licenses to makes sure that she is only assigned the licenses that she'll need for her role. In our case she'll be given Help Desk, Teams, and User Admin roles. There is an option too fine tune her roles but in this practice we're only gonna go w/ what is available under Admin center access and not "show all by category". 
-
 ![image](https://github.com/user-attachments/assets/90074413-224f-4657-aaa3-7cb361f855bf)
 
 ![image](https://github.com/user-attachments/assets/3a06cdd8-a725-410b-b4b5-a2ec5ca9f94c)
 
 ![image](https://github.com/user-attachments/assets/5bff372b-0970-4e6d-85b6-c3cd8ec4ef0b)
 
+I've assigned her the default Microsoft 365 Business Standard licenses, 14 of 25. Scrolled through the licenses to makes sure that she is only assigned the licenses that she'll need for her role. In our case she'll be given Help Desk, Teams, and User Admin roles and permissions. There is an option too fine tune her roles but in this practice we're only gonna go w/ what is available under Admin center access and not "show all by category".
+
 ![image](https://github.com/user-attachments/assets/0c82b42d-1727-4bfc-9645-f24de63c388d)
+
+To set up security groups we first go to "Active teams and groups" on the left hand of the page under "Teams & groups" section. From there we go to the security groups tap and click "add a security group" to make a new one. Name the security group "Help Desk" and click next then create group.
+
+![image](https://github.com/user-attachments/assets/250f39ab-6666-4748-90f7-de2cca27dfe6)
+
+![image](https://github.com/user-attachments/assets/e96576dd-4b2e-40df-a9ce-b012e6f120aa)
+
+![image](https://github.com/user-attachments/assets/c755e724-3c77-4040-a17e-f88141c46418)
+
+![image](https://github.com/user-attachments/assets/dd2f1eee-addc-4fdb-8c5e-99611ec1b6f9)
 
 Email Setup (Exchange Online):
 
