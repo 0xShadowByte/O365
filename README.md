@@ -16,7 +16,7 @@ Office 365 Admin (30 Day free trial)
 
 https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-business-standard-one-month-trial 
 
-## Task I. Office 365 Tenant Setup:
+## Task I. Office 365 Tenant Setup
 
 Sign up for a Microsoft 365 Business or Education trial. Set up the tenant with your domain name (if you have one) or use the default domain. Configure the basic tenant settings (language, region, etc.).
 
@@ -24,7 +24,7 @@ Sign up for a Microsoft 365 Business or Education trial. Set up the tenant with 
 
 ![image](https://github.com/user-attachments/assets/e0eae49d-2d67-403f-a680-43f2f913e07b)
 
-### Task II. User Management:
+## Task II. User Management
 
 ### Step 1:
 
@@ -36,7 +36,7 @@ Created a sample of 10 users for the practical lab. Using Ava Johnson as an exam
 
 ![image](https://github.com/user-attachments/assets/5bff372b-0970-4e6d-85b6-c3cd8ec4ef0b)
 
-# Step 2: 
+### Step 2: 
 
 I've assigned her the default Microsoft 365 Business Standard licenses, 14 of 25. Scrolled through the licenses to makes sure that she is only assigned the licenses that she'll need for her role. In our case she'll be given Help Desk, Teams, and User Admin roles and permissions. There is an option too fine tune her roles but in this practice we're only gonna go w/ what is available under Admin center access and not "show all by category".
 
@@ -54,7 +54,7 @@ To set up security groups we first go to "Active teams and groups" on the left h
 
 ![image](https://github.com/user-attachments/assets/dd2f1eee-addc-4fdb-8c5e-99611ec1b6f9)
 
-## Task III. Email Setup (Exchange Online):
+## Task III. Email Setup (Exchange Online)
 
 ### Step 1: 
 
@@ -98,7 +98,7 @@ To configure Data Loss Prevention (DLP) Policies we first go to the Microsoft Pu
 
 ![image](https://github.com/user-attachments/assets/1093f111-aea5-4215-a080-dac0d4977f60)
 
-## Task IV. Collaboration Setup (Teams & OneDrive):
+## Task IV. Collaboration Setup (Teams & OneDrive)
 
 Set up Microsoft Teams for internal communication and collaboration.
 Create channels, configure settings, and test messaging and file sharing.
@@ -110,18 +110,18 @@ To set up Microsoft Teams for internal communication we need to go to the left p
 
 ![image](https://github.com/user-attachments/assets/11886caa-a65c-4732-b847-74b5510f0d88)
 
-## Task V. Security & Compliance:
+## Task V. Security & Compliance
 
 Enable Multi-Factor Authentication (MFA) for users to secure accounts.
 Implement conditional access policies to control access to Office 365 resources.
 Set up Microsoft Defender for Office 365 to protect against threats like phishing.
 
-## Task VI. PowerShell Automation:
+## Task VI. PowerShell Automation
 
 Learn and execute basic PowerShell commands for Office 365 administration (user management, report generation, license assignment, etc.).
 Automate repetitive tasks like creating user accounts, assigning licenses, and generating reports.
 
-## Task VII. Backup and Restore:
+## Task VII. Backup and Restore
 
 Explore third-party backup solutions for Office 365 data (e.g., emails, SharePoint, OneDrive).
 Test data restoration procedures to ensure recovery of lost files or emails.
