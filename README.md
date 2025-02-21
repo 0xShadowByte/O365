@@ -21,30 +21,36 @@ Office 365 Tenant Setup:
 Sign up for a Microsoft 365 Business or Education trial.
 Set up the tenant with your domain name (if you have one) or use the default domain.
 Configure the basic tenant settings (language, region, etc.).
+
 User Management:
 
 Create user accounts and assign appropriate licenses (e.g., Microsoft 365 Business Basic, Premium, etc.).
 Use the Microsoft 365 Admin Center to manage user roles and permissions.
 Set up security groups and dynamic groups for organizing users.
+
 Email Setup (Exchange Online):
 
 Configure mailboxes for the created users.
 Set up custom email domains, configure mail flow rules, and test email communication.
 Implement data loss prevention (DLP) policies and spam filtering.
+
 Collaboration Setup (Teams & OneDrive):
 
 Set up Microsoft Teams for internal communication and collaboration.
 Create channels, configure settings, and test messaging and file sharing.
 Set up OneDrive for Business for file storage and sharing, and implement access controls.
+
 Security & Compliance:
 
 Enable Multi-Factor Authentication (MFA) for users to secure accounts.
 Implement conditional access policies to control access to Office 365 resources.
 Set up Microsoft Defender for Office 365 to protect against threats like phishing.
+
 PowerShell Automation:
 
 Learn and execute basic PowerShell commands for Office 365 administration (user management, report generation, license assignment, etc.).
 Automate repetitive tasks like creating user accounts, assigning licenses, and generating reports.
+
 Backup and Restore:
 
 Explore third-party backup solutions for Office 365 data (e.g., emails, SharePoint, OneDrive).
